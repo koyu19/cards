@@ -1,0 +1,61 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+#game-container {
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#card-display {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+#card-display img {
+  width: 100px;
+  height: 150px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#controls button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+#message {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+#score {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: green;
+}
+
+#start-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
